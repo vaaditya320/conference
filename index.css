@@ -1,0 +1,27 @@
+/* index.css */
+
+/* Change navbar item color on hover */
+.navbar-dark .navbar-nav .nav-link {
+    transition: color 0.3s ease-in, transform 0.3s ease-in; /* Smooth transition for color change and transform */
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+      transform: scale(1.05); /* Scale up the size slightly on hover */
+    color: #f0ff00; /* Neon yellow color */
+  }
+  
+  /* Change navbar background color */
+  .navbar-dark {
+    background-color: #034ea2; /* Your chosen color */
+  }
+  
+  /* Change dropdown item color on hover */
+  .dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f0ff00; /* Neon yellow color */
+  }
+  
