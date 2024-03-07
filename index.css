@@ -8,7 +8,7 @@
   
   .navbar-dark .navbar-nav .nav-link:hover {
       transform: scale(1.05); /* Scale up the size slightly on hover */
-    color: #f0ff00; /* Neon yellow color */
+    color: #ffff00; /* Neon yellow color */
   }
   
   /* Change navbar background color */
@@ -24,4 +24,53 @@
   .dropdown-menu .dropdown-item:hover {
     background-color: #f0ff00; /* Neon yellow color */
   }
+
+  /* info part */
+
+  .grid-title{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .part1, .part2, .part3 img {
+    max-width: 100%; /* Ensure images don't exceed column width */
+    height: auto; /* Maintain aspect ratio */
+    text-align: center;
+    
+}
+.part2 h3{
+  color: #034ea2;
   
+}
+
+
+  /* Custom CSS for About Section */
+.about-college, .about-conference {
+  height: 100%;
+  width: 100%; /* Set width to 85% of the screen */
+  max-width: 900px; /* Set maximum width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto; /* Center the container horizontally */
+}
+
+.about-section {
+  background-color: #f2f2f2; /* Greyish background color */
+  border-radius: 10px; /* Smooth corners */
+  padding: 30px; /* Add some padding */
+  margin-top: 50px; /* Add space between navbar and about section */
+}
+
+.about-section h2 {
+  color: #034ea2; /* Match the theme color */
+}
+
+.about-section p {
+  color: #333; /* Text color */
+  line-height: 1.6; /* Line height for readability */
+}
+
+.col-lg-8 {
+  flex: 0 0 auto;
+  width: 100%;
+}
